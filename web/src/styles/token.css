@@ -1,0 +1,122 @@
+:root {
+  /* spacing */
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* semantic spacing */
+  --space-page: var(--space-6);
+  --space-section: var(--space-6);
+  --space-panel: var(--space-4);
+  --space-field: var(--space-3);
+  --space-actions: var(--space-2);
+
+  /* font */
+  --font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --line-height-tight: 1.25;
+  --line-height-base: 1.5;
+
+  /* radius */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* app size */
+  --size-header-height: 56px;
+  --size-sidebar-width: 240px;
+  --size-sidebar-collapsed-width: 64px;
+  --size-container-sm: 640px;
+  --size-container-md: 960px;
+  --size-container-lg: 1200px;
+  --size-container-xl: 1440px;
+
+  /* control */
+  --control-height-sm: 32px;
+  --control-height-md: 40px;
+  --control-height-lg: 48px;
+  --control-padding-x-sm: var(--space-3);
+  --control-padding-x-md: var(--space-4);
+  --control-padding-x-lg: var(--space-5);
+  --control-font-size-sm: var(--font-size-sm);
+  --control-font-size-md: var(--font-size-sm);
+  --control-font-size-lg: var(--font-size-md);
+
+  /* table */
+  --table-header-height: 44px;
+  --table-row-height: 44px;
+  --table-cell-padding-x: var(--space-3);
+  --table-cell-padding-y: var(--space-2);
+
+  /* pagination */
+  --pagination-item-size: 32px;
+  --pagination-gap: var(--space-1);
+
+  /* overlay */
+  --overlay-bg: rgb(15 23 42 / 0.48);
+  --modal-width-sm: 360px;
+  --modal-width-md: 560px;
+  --modal-width-lg: 720px;
+  --modal-width-xl: 960px;
+  --drawer-width-sm: 320px;
+  --drawer-width-md: 420px;
+  --drawer-width-lg: 560px;
+
+  /* layout primitive */
+  --layout-grid-min-item-width-sm: 180px;
+  --layout-grid-min-item-width-md: 240px;
+  --layout-grid-min-item-width-lg: 320px;
+  --splitter-handle-size: 6px;
+  --splitter-handle-hit-size: 12px;
+
+  /* feedback */
+  --toast-width: 360px;
+  --toast-gap: var(--space-2);
+  --toast-offset: var(--space-4);
+  --tooltip-max-width: 280px;
+
+  /* state */
+  --empty-state-min-height: 160px;
+  --spinner-size-sm: 16px;
+  --spinner-size-md: 24px;
+  --spinner-size-lg: 32px;
+
+  /* shadow */
+  --shadow-sm: 0 1px 2px rgb(15 23 42 / 0.08);
+  --shadow-md: 0 8px 24px rgb(15 23 42 / 0.12);
+  --shadow-lg: 0 16px 48px rgb(15 23 42 / 0.16);
+
+  /* z-index */
+  --z-header: 100;
+  --z-sidebar: 110;
+  --z-dropdown: 500;
+  --z-tooltip: 600;
+  --z-overlay: 900;
+  --z-modal: 1000;
+  --z-toast: 1100;
+
+  /* motion */
+  --motion-fast: 120ms;
+  --motion-normal: 180ms;
+  --motion-slow: 240ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}

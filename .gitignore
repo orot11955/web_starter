@@ -1,0 +1,149 @@
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.pnpm-store/
+
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.turbo/
+.cache/
+.parcel-cache/
+
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# Environment files
+# 실제 운영/개인 환경값은 커밋하지 않음
+# 필요한 경우 .env.example만 커밋
+.env
+.env.*
+!.env.example
+!.env.sample
+
+
+# Test / Coverage
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+
+
+# TypeScript
+*.tsbuildinfo
+
+
+# Package manager
+# lock 파일은 보통 커밋 권장
+# 필요 없으면 아래 주석 해제
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+
+# IDE / Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+.idea/
+*.iml
+
+
+# OS - macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+
+# OS - Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+
+# OS - Linux
+*~
+.directory
+.Trash-*
+
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+
+# Runtime / Local data
+.local/
+.localdata/
+*.local
+
+
+# Docker / Compose local overrides
+docker-compose.override.yml
+compose.override.yml
+
+
+# ESLint / Stylelint / Prettier cache
+.eslintcache
+.stylelintcache
+.prettiercache
+
+
+# Storybook
+storybook-static/
+
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+
+# Vitest
+.vitest/
+
+
+# Misc
+*.bak
+*.orig
+*.rej
