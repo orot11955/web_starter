@@ -1,0 +1,13 @@
+body {
+  color: var(--color-text);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-base);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
